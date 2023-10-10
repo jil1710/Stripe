@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "+nMAMc5K9eCHIZ1qmIBVIAfKKw/AwXYcDZ+Qgmhb5dp5CHJiThInmu7GqMFhX7SUXQ3ypqQZdrrnTs/WADO17Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jil\\source\\repos\\Stripe\\Stripe\\Stripe.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jil\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\jil\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\jil\\.nuget\\packages\\stripe.net\\42.8.0\\stripe.net.42.8.0.nupkg.sha512",
+    "C:\\Users\\jil\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",
+    "C:\\Users\\jil\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\jil\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "C:\\Users\\jil\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "C:\\Users\\jil\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
+    "C:\\Users\\jil\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

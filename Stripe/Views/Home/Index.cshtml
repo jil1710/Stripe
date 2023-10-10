@@ -1,0 +1,43 @@
+﻿@model IEnumerable<ProductEntity>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+    <section>
+        @foreach (var product in Model)
+        {
+
+            <div class="product">
+                <img src="@product.Photo" alt="The cover of Stubborn Attachments" />
+                <div class="description">
+                    <h3 class="p-0 m-0">@product.Name</h3>
+                    <h5 class="p-0 m-0">@product.Price Rs</h5>
+                    <h5 class="p-0 m-0">Quantity : @product.Quantity</h5>
+                </div>
+            </div>
+
+        }
+            <button type="button" id="checkout-button">Checkout</button>
+    </section>
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#checkout-button").click(function () {
+                var myData = @Html.Raw(Json.Serialize(Model));
+                $.ajax({
+                    type: "POST",
+                    url: "Home/Checkout",
+                    data : { products : JSON.stringify(myData) },
+                    headers: {'Access-Control-Allow-Origin': '*'},
+                    success: function (url) {
+                        window.location.href = url
+                    }
+                });
+            });
+        });
+    </script>
+}
