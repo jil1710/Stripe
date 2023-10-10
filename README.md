@@ -43,7 +43,12 @@
         Install-Package Stripe.net
     ```
 
-- **Step 4 : Let's create checkout functionality when user click on checkout the we redirect to stripe payment page as shown in figure.**
+- **Step 4 : Add Stript Apikey in Program.cs file to interact with stripe account**
+
+    ![image](https://github.com/jil1710/Stripe/assets/125335932/72f4c33c-33e9-4fc3-b400-3da92b866c71)
+
+
+- **Step 5 : Let's create checkout functionality when user click on checkout the we redirect to stripe payment page as shown in figure.**
 
   - Here is our checkout UI :
   
